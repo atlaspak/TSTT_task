@@ -1,0 +1,282 @@
+[
+  {
+    "scenario": "Scenario 1",
+    "config": "Config D",
+    "type": "type2",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "fail"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 1",
+    "config": "Config E",
+    "type": "type1",
+    "platform": "PL1",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "busy"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 2",
+    "config": "Config A",
+    "type": "type2",
+    "platform": "PL2",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "wait"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 3",
+    "config": "Config C",
+    "type": "type1",
+    "platform": "PL1",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "fail"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 3",
+    "config": "Config B",
+    "type": "type2",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 3",
+    "config": "Config D",
+    "type": "type1",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "busy"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 4",
+    "config": "Config A",
+    "type": "type3",
+    "platform": "PL2",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "wait"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "fail"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 5",
+    "config": "Config B",
+    "type": "type1",
+    "platform": "PL1",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "wait"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "wait"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "wait"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 5",
+    "config": "Config D",
+    "type": "type2",
+    "platform": "PL2",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "busy"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 6",
+    "config": "Config B",
+    "type": "type3",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "fail"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 6",
+    "config": "Config A",
+    "type": "type3",
+    "platform": "PL1",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "busy"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "busy"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 7",
+    "config": "Config D",
+    "type": "type2",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "pass"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "fail"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 8",
+    "config": "Config C",
+    "type": "type1",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "busy"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "busy"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "wait"
+      }
+    ]
+  },
+  {
+    "scenario": "Scenario 8",
+    "config": "Config D",
+    "type": "type3",
+    "platform": "PL3",
+    "steps": [
+      {
+        "stepName": "Step 1",
+        "result": "wait"
+      },
+      {
+        "stepName": "Step 2",
+        "result": "busy"
+      },
+      {
+        "stepName": "Step 3",
+        "result": "fail"
+      }
+    ]
+  }
+]
