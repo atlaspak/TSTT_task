@@ -9,7 +9,14 @@ function App() {
       .then(setItems)
       .catch(error => console.error('Error:', error));
   }, []);
-  
+
+  const getOverallResult = (steps) => {
+    const results = steps.map(step => step.result);
+    if (results.includes('fail')) return 'FAIL';
+    if (results.includes('busy') || results.includes('wait')) return 'UNSTABLE';
+    return 'PASS';
+  };
+
   return (
     <div>
       <h1>Test Results</h1>
@@ -21,6 +28,7 @@ function App() {
             <th>Test-Scenario</th>
             <th>Configuration</th>
             <th>Results</th>
+            <th>Overall</th>
           </tr>
         </thead>
         <tbody>
@@ -31,6 +39,7 @@ function App() {
               <td>{item.scenario}</td>
               <td>{item.config}</td>
               <td>{item.steps.map(step => step.result.toUpperCase()).join(', ')}</td>
+              <td>{getOverallResult(item.steps)}</td>
             </tr>
           ))}
         </tbody>
