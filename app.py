@@ -9,7 +9,7 @@ def serve():
 
 @app.route('/api/items')
 def get_items():
-    with open('data.json') as json_file:
+    with open('input.json') as json_file:
         data = json.load(json_file)
         return jsonify(data)
 
