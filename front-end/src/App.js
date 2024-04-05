@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Summary from './Summary';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div>
+      <Summary/>
       <h1>Test Results</h1>
       <table>
         <thead>
